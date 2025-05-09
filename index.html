@@ -1,13 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>SmartHome</h1>
+      <p>Control your home anywhere with a single tap.</p>
+      <a href="signup" class="cta">Get Started</a>
+    </div>
+  </header>
+
+  <section class="features">
+    <div class="container">
+      <div class="features">
+        <h2>Remote Access</h2>
+        <p>Turn lights on/off, set temperature, or view cameras from your phone.</p>
+      </div>
+      <div class ="feature">
+        <h2>Energy Saving</h2>
+        <p>Monitor and reduce power consumption with smart scheduling.</p>
+      </div>
+      <div class="feature">
+        <h2>Security</h2>
+        <p>24/7 Monitoring and alerts to keep your home safe.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup" id="signup">
+    <div class="container">
+      <h2>Join the Smart Revolution</h2>
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SmartHome Inc. All rights reserved.</p>
+  </footer>
+</body>
 </html>
